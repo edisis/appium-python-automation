@@ -1,0 +1,7 @@
+# Appium & Automation
+Appium-Python-Client==5.2.4
+selenium==4.37.0
+
+# Testing Framework
+pytest==8.4.2
+allure-pytest==2.15.0
