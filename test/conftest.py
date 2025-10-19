@@ -6,7 +6,7 @@ from appium.options.android.uiautomator2.base import UiAutomator2Options
 @pytest.fixture
 def setup(request):
     options = UiAutomator2Options()
-    options.udid = 'RRCT6020PMY'
+    options.udid = 'RRCT6020OPM' # Device UDID from `adb devices`  
     options.platform_name = 'Android'
     options.app_package = 'com.swaglabsmobileapp'
     options.app_activity = 'com.swaglabsmobileapp.MainActivity'
